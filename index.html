@@ -6,8 +6,16 @@
   </head>
   <body>
     <h1>豆知識ポスター</h1>
-    <style>
-      location.href = "takaasigani.pdf"
-    </style>
+    <script>
+      var hash = window.location.hash;
+      if (hash = "1")
+      {
+        location.href = "takaasigani.pdf";
+      }
+      if (hash = "2")
+      {
+        location.href = "hikuidori.pdf"
+      }
+    </script>
   </body>
 </html>
